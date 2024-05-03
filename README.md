@@ -1,2 +1,2 @@
 # BackendDemo
-Demo for ACM Backend Workshop
+Demo for Kettering ACM Chapter Backend Workshop
