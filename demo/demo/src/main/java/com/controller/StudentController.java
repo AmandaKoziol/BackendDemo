@@ -14,8 +14,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController     // Indicates that returned data will be response bodies
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/students")    // Sets the url for the class
 public class StudentController {
 	private StudentService studentService;
